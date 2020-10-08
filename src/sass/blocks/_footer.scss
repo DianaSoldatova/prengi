@@ -1,0 +1,54 @@
+.footer {
+    padding: 49px 0 40px 0;
+    background: url("../img/blue.jpg") center (center/cover) no-repeat;
+    &__wrapper {
+        display: grid;
+        grid-template-columns: 377px 264px 117px 111px;
+        grid-template-rows: repeat(1, minmax(270px, auto));
+        gap: 19px;
+        justify-content: space-between;
+        grid-auto-rows: minmax(270px, auto);
+    }
+    &__img {
+        width: 177px;
+        margin-top: 17px;
+    }
+    &__text {
+        font-size: 14px;
+        font-weight: 300;
+        color: white;
+        line-height: 19px;
+        margin-top: 25px;
+    }
+    &__item {
+        list-style: none;
+        font-size: 14px;
+        font-weight: 300;
+    }
+    &__link {
+        color: white;
+        line-height: 19px;
+        &:hover {
+            color:rgb(53, 53, 209)e;
+            text-decoration: none;
+            
+        }
+    }
+    &__subtitle {
+        margin-bottom: 15px;
+    }
+    &__divider {   
+        width: 1200px;
+        height: 1px;
+        opacity: 0.3;
+		background-color: white;
+		margin: 43px auto;
+    }
+    &__end {
+        font-size: 13px;
+        line-height: 17px;
+        font-weight: 300;
+        color: #ffffff;
+        text-align: center;
+    }
+}

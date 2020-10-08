@@ -1,0 +1,17 @@
+.btn {
+    width: 241px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: #00c2f0;
+    // box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.07);
+    border: none;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+    outline: 0!important;
+    &:hover {
+        color: rgb(53, 53, 209);
+    }
+}

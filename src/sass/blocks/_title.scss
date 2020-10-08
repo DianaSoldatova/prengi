@@ -1,0 +1,45 @@
+.title {
+    font-weight: 300;
+    &_fz12 {
+        font-size: 12px;
+    }
+    &_fz14 {
+        font-size: 14px;
+        font-weight: 700;
+    }
+    &_fz16 {
+        font-size: 16px;
+        line-height: 19px;
+        font-weight: 700;
+        color: #ffffff;
+    }
+    &_fz18 {
+        font-size: 18px;
+        line-height: 26px;
+        color: #ffffff;
+    }
+    &_fz23 {
+        font-size: 23px;
+        line-height: 26px;
+        font-weight: 400;
+        color: white;
+    }
+    &_fz24 {
+        font-size: 24px;
+        line-height: 30px;
+        color: #ffffff;
+    }
+    &_fz30 {
+        font-size: 30px;
+        line-height: 35px;
+        font-weight: 900;
+        color: #ffffff;
+    }
+    &_fz42 {
+        font-size: 42px;
+        line-height: 48px;
+        font-weight: 900;
+        color: #ffffff;
+    }
+    
+}

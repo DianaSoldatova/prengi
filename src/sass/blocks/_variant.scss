@@ -1,0 +1,60 @@
+.variant {
+    
+    min-height: 580px;
+    // background: url("../img/main_three\(1\).jpg") top right;
+    // background: url("../img/main_three\(2\).jpg") top left;
+    &__title {
+        text-align: center; 
+        position: absolute;
+        text-align: center;
+        position: absolute;
+        z-index: 1;
+        transform: translate(410px, 79px);
+      
+    }
+    &__wrapper {
+        display: flex;
+        position: relative;
+        
+    }
+    &__left {
+        padding: 79px 0 181px 0;
+        background: url("../img/main_three\(1\).jpg") center (center/cover) no-repeat;
+        width: 50%;
+        position: absolute;
+        left: 0px;
+        // height: 100%;
+        height: 580px;
+    }
+    &__right {
+        padding: 79px 0 181px 0;
+        background: url("../img/main_three\(2\).jpg") center (center/cover) no-repeat;
+        width: 50%;
+        position: absolute;
+        right: 0px;
+        // height: 100%;
+        height: 580px;
+    }
+    &__subtitle {
+        margin-top: 228px;
+        text-transform: uppercase;
+        
+    }
+    
+    &__all {
+        margin-right: 82px;
+        text-align: right;
+        position: relative;
+        z-index: 8;
+        @include before_figura;
+        
+    }
+    &_all {
+        margin-left: 82px;
+        text-align: left;
+        position: relative;
+        z-index: 8;
+        @include before_right;  
+    }
+    
+}

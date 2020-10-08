@@ -1,0 +1,51 @@
+.prengi {
+    padding-top: 80px;
+    &__wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 360px);
+        grid-template-rows: repeat(1, minmax(255px, auto));
+        gap: 19px;
+        justify-content: center;
+        grid-auto-rows: minmax(255px, auto);
+    }
+    &__block {
+        border: 1px solid #ececec;
+        padding: 0 84px 36px 84px;
+        position: relative;
+    }
+    &__img_small {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        opacity: 0.2;
+    }
+    &__text {
+        font-size: 18px;
+        line-height: 26px;
+        font-weight: 300;
+        color: #393939;
+        text-align: center;
+    }
+    &__arrow {
+        height: 50px;
+        // width: 100%;
+        display: block;
+        margin:  0px auto;
+        margin-top: 50px;
+
+
+    }
+    &__arrow_second {
+        height: 50px;
+        display: block;
+        margin: 0 auto;
+        margin-top: -24px;
+
+    }
+    &__title {
+        color: #393939;
+        text-align: center;
+        margin-top: 33px;
+        margin-bottom: 37px;
+    }
+}
